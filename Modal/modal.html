@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal js project</title>
+    <link rel="stylesheet" href="modal.css" />
+    <style>
+      #modal.open {
+        display: block;
+      }
+      #overlay.open {
+        display: block;
+      }
+    </style>
+    <script src="modal.js" defer></script>
+  </head>
+  <body>
+    <button id="open-modal-btn" style="cursor: pointer">Open Modal</button>
+    <div id="overlay"></div>
+    <div id="modal">
+      <h3>This is a modal</h3>
+      <button id="close-modal-btn" style="cursor: pointer">Close Modal</button>
+    </div>
+  </body>
+</html>
